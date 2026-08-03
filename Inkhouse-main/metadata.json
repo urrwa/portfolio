@@ -1,0 +1,6 @@
+{
+  "name": "The Sketch Dimension",
+  "description": "An interactive 3D sketch portfolio for Urwa Imtiaz, AI Web Designer, Frontend Developer, UI/UX Designer, and Data Analyst.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
