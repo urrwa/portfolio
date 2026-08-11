@@ -25,36 +25,36 @@ const TIMELINE_STEPS: TimelineStep[] = [
   {
     year: '2022',
     title: 'Started UI Design',
-    desc: 'Began exploring interaction design, user flows, and visual communication principles.',
-    highlights: ['Learned Figma fundamentals', 'Conducted initial user research', 'Created low-fi paper sketches'],
+    desc: 'Opened Figma for the first time and started learning layout, type and interface basics.',
+    highlights: ['Learned Figma fundamentals', 'Studied UI patterns and user flows', 'Created low-fi paper sketches'],
     color: '#6366f1'
   },
   {
     year: '2023',
     title: 'Self-Initiated Projects',
     desc: 'Practised on my own briefs: UI layouts, visual systems, and responsive landing pages — no client work.',
-    highlights: ['Designed mobile app UI concepts', 'Explored vector and type systems', 'Tested layouts with friends and peers'],
+    highlights: ['Designed mobile app UI concepts', 'Explored vector and type systems', 'Started writing HTML, CSS and JavaScript'],
     color: '#06b6d4'
   },
   {
     year: '2024',
-    title: 'Learning Product Design',
-    desc: 'Deepened expertise in HCI, component auto-layouts, and design system governance.',
-    highlights: ['FAST National University HCI labs', 'Completed DataCamp Python, SQL and Git courses', 'Built complex prototype interactions'],
+    title: 'Moved From Figma Into Code',
+    desc: 'Started building my own designs in the browser with React, and picked up the fundamentals properly.',
+    highlights: ['BS AI coursework at FAST-NUCES', 'Completed DataCamp Python, SQL and Git courses', 'Built my first React interfaces'],
     color: '#10b981'
   },
   {
     year: '2025',
-    title: 'Website Design Projects',
-    desc: 'Started building my designs in code — animated, scroll-driven React and Next.js sites as concept projects.',
+    title: 'Scroll-Driven Concept Sites',
+    desc: 'Built animated, scroll-driven concept sites in React, Next.js and TypeScript — all self-initiated.',
     highlights: ['Nexus AI cinematic Three.js experience', 'Astronomia Luxe scroll sequence concept', 'CIRON bicycle brand concept site'],
     color: '#f59e0b'
   },
   {
     year: 'Today',
     title: 'Building Better Digital Experiences',
-    desc: 'Designing digital experiences that balance human empathy, visual elegance, and functional clarity.',
-    highlights: ['Available for full-time & freelance projects', 'Continuously experimenting in Figma', 'Crafting user-centered products'],
+    desc: 'Designing and building interfaces where motion, layout and accessibility decisions happen in the browser.',
+    highlights: ['Open to frontend & creative developer roles', 'Continuously experimenting in code and Figma', 'Building The Sketch Dimension portfolio'],
     color: '#ec4899'
   }
 ];
@@ -104,7 +104,7 @@ export default function RoomExperience({ onBack }: RoomExperienceProps) {
         <div className="flex-1 bg-white border-2 border-neutral-800 rounded-xl p-6 shadow-[6px_6px_0px_rgba(28,28,28,0.12)] sketch-element relative flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between pb-3 mb-6 border-b border-dashed border-neutral-300">
-              <h3 className="font-serif text-xl font-bold text-neutral-800">Design Timeline</h3>
+              <h3 className="font-serif text-xl font-bold text-neutral-800">Design & Code Timeline</h3>
               <span className="font-mono text-[9px] bg-indigo-50 text-indigo-700 border border-indigo-200 px-2 py-0.5 rounded font-bold uppercase">
                 2022 — Present
               </span>
