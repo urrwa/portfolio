@@ -174,21 +174,21 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
                     01 — Introduction
                   </span>
                   <h4 className="font-serif text-2xl font-bold text-neutral-900 leading-snug">
-                    "I build thoughtful, human-centered digital interfaces that balance visual clarity with emotional resonance."
+                    "I build animated, scroll-driven web interfaces where motion carries the story instead of decorating it."
                   </h4>
                   <p className="font-serif text-neutral-700 text-sm mt-3 leading-relaxed">
-                    Hello! I'm Urwah Imtiaz, a Product & UI/UX Designer based in Faisalabad, Pakistan. I specialize in turning complex workflow challenges into clean, accessible web and mobile products through user research, structural flows, and pixel-perfect design systems.
+                    Hello! I'm Urwah Imtiaz, a creative frontend developer based in Faisalabad, Pakistan. I came to development through design — Figma, design systems and prototyping — and for the last two years I've been building my own concept sites in React, Next.js and TypeScript with GSAP, Framer Motion and Three.js.
                   </p>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 font-mono text-xs">
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg">
                     <span className="text-neutral-400 text-[9px] block uppercase">Role</span>
-                    <span className="font-bold text-neutral-800">UI/UX & Product Designer</span>
+                    <span className="font-bold text-neutral-800">Frontend Developer & UI Designer</span>
                   </div>
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg">
                     <span className="text-neutral-400 text-[9px] block uppercase">Focus</span>
-                    <span className="font-bold text-neutral-800">Design Systems & Research</span>
+                    <span className="font-bold text-neutral-800">Scroll-Driven Motion & Interfaces</span>
                   </div>
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg">
                     <span className="text-neutral-400 text-[9px] block uppercase">Location</span>
@@ -208,10 +208,10 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
                     02 — My Story
                   </span>
                   <h4 className="font-serif text-xl font-bold text-neutral-800 mb-3 border-b border-neutral-200 pb-2">
-                    Every Project Begins With Curiosity
+                    Design First, Then Code
                   </h4>
                   <p className="font-serif text-neutral-700 text-sm leading-relaxed">
-                    Mine began with opening Figma for the first time and wondering how simple shapes could become meaningful experiences. Since then, I've been obsessed with creating interfaces that don't just look beautiful—but feel intuitive, human, and memorable.
+                    It started with opening Figma and wondering how simple shapes could become an experience. I had no fixed plan to become a frontend developer — it happened by building, one project at a time, over the last two years.
                   </p>
                 </div>
 
@@ -221,7 +221,7 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
                       💡 How I Discovered Design
                     </p>
                     <p className="font-serif text-xs text-neutral-600 leading-relaxed">
-                      While studying computer science at FAST NUCES, I realized that the magic lies in the intersection of empathy and visual design. I transitioned from code to interaction architecture.
+                      While studying Artificial Intelligence at FAST-NUCES I kept designing in Figma, then started building those designs myself in the browser instead of handing them over.
                     </p>
                   </div>
                   <div className="p-4 bg-rose-50/50 border border-rose-200 rounded-lg">
@@ -229,7 +229,7 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
                       ❤️ Why I Enjoy Designing
                     </p>
                     <p className="font-serif text-xs text-neutral-600 leading-relaxed">
-                      Seeing a user complete a task seamlessly without frustration is deeply satisfying. Design is my medium for solving real-world friction.
+                      Watching an interaction land exactly the way I imagined it — in a real browser, in code — is the part I keep coming back for.
                     </p>
                   </div>
                 </div>
@@ -245,9 +245,9 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
                 <div className="space-y-3 relative pl-4 before:absolute before:left-1 before:top-2 before:bottom-2 before:w-0.5 before:bg-neutral-200">
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg relative">
                     <div className="w-2.5 h-2.5 bg-indigo-600 rounded-full absolute -left-[21px] top-4 border-2 border-white" />
-                    <span className="font-mono text-[10px] font-bold text-indigo-600">2022 — The Awakening</span>
-                    <h5 className="font-serif text-sm font-bold text-neutral-800 mt-0.5">Discovered Interaction Design</h5>
-                    <p className="font-serif text-xs text-neutral-600 mt-1">Began exploring HCI labs at FAST NUCES, conducting qualitative audits and paper prototype testing.</p>
+                    <span className="font-mono text-[10px] font-bold text-indigo-600">2022 — Where It Started</span>
+                    <h5 className="font-serif text-sm font-bold text-neutral-800 mt-0.5">Discovered Interface Design</h5>
+                    <p className="font-serif text-xs text-neutral-600 mt-1">Started BS AI at FAST-NUCES and opened Figma for the first time: layouts, type and paper sketches.</p>
                   </div>
 
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg relative">
@@ -260,7 +260,7 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg relative">
                     <div className="w-2.5 h-2.5 bg-rose-600 rounded-full absolute -left-[21px] top-4 border-2 border-white" />
                     <span className="font-mono text-[10px] font-bold text-rose-600">2024–Present — Building in Code</span>
-                    <h5 className="font-serif text-sm font-bold text-neutral-800 mt-0.5">Product Design & Interactive Experiences</h5>
+                    <h5 className="font-serif text-sm font-bold text-neutral-800 mt-0.5">Scroll-Driven Interfaces, Built by Me</h5>
                     <p className="font-serif text-xs text-neutral-600 mt-1">Designing and building animated, scroll-driven interfaces in React, Next.js and TypeScript as personal concept projects.</p>
                   </div>
                 </div>
@@ -454,14 +454,15 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   {[
-                    { name: "Figma", type: "UI/UX & Systems", icon: "🎨" },
-                    { name: "Illustrator", type: "Vector Graphics", icon: "✒️" },
-                    { name: "Photoshop", type: "Image Editing", icon: "🖼️" },
-                    { name: "HTML / CSS", type: "Web Styling", icon: "🌐" },
-                    { name: "React", type: "UI Architecture", icon: "⚛️" },
-                    { name: "JavaScript", type: "Interactions", icon: "⚡" },
-                    { name: "VS Code", type: "Development Environment", icon: "💻" },
-                    { name: "Notion & Miro", type: "Research & Mappings", icon: "📌" },
+                    { name: "Figma", type: "UI Design & Prototyping", icon: "🎨" },
+              { name: "React", type: "Component UI", icon: "⚛️" },
+              { name: "Next.js", type: "App Router", icon: "▲" },
+              { name: "TypeScript", type: "Typed Logic", icon: "🔷" },
+              { name: "Tailwind CSS", type: "Styling & Layout", icon: "🎯" },
+              { name: "GSAP", type: "ScrollTrigger Motion", icon: "⚡" },
+              { name: "Framer Motion", type: "React Animation", icon: "✨" },
+              { name: "Three.js", type: "WebGL Scenes", icon: "🌐" },
+              { name: "VS Code", type: "Development Environment", icon: "💻" },
                   ].map((tool, i) => (
                     <div key={i} className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg text-center">
                       <span className="text-2xl block mb-1">{tool.icon}</span>
