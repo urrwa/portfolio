@@ -48,7 +48,7 @@ export default function RoomContact({ onBack }: RoomContactProps) {
         setErrorMsg(data.error || 'Failed to dispatch message.');
       }
     } catch (err) {
-      setErrorMsg('Message saved locally. Will sync when server is reachable.');
+      setErrorMsg('Cannot reach the email service. Please use the direct mail link or try again later.');
     } finally {
       setIsSending(false);
     }
@@ -107,7 +107,7 @@ export default function RoomContact({ onBack }: RoomContactProps) {
             {/* Quick Action Link Cards */}
             <div className="space-y-2.5">
               <a
-                href="mailto:f223160@cfd.nu.edu.pk"
+                href="mailto:urwahimtiaz857@gmail.com"
                 className="p-3 bg-neutral-50 border-2 border-neutral-800 rounded-xl flex items-center justify-between hover:bg-indigo-50 hover:border-indigo-600 transition-all cursor-none interactive-obj group"
               >
                 <div className="flex items-center gap-2.5">
@@ -118,7 +118,7 @@ export default function RoomContact({ onBack }: RoomContactProps) {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/urwahimtiaz/?skipRedirect=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-neutral-50 border-2 border-neutral-800 rounded-xl flex items-center justify-between hover:bg-sky-50 hover:border-sky-600 transition-all cursor-none interactive-obj group"
@@ -144,8 +144,10 @@ export default function RoomContact({ onBack }: RoomContactProps) {
               </a>
 
               <a
-                href="#"
-                onClick={(e) => { e.preventDefault(); alert("Resume PDF requested!"); }}
+                href="/resume.docx"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
                 className="p-3 bg-neutral-50 border-2 border-neutral-800 rounded-xl flex items-center justify-between hover:bg-amber-50 hover:border-amber-600 transition-all cursor-none interactive-obj group"
               >
                 <div className="flex items-center gap-2.5">
