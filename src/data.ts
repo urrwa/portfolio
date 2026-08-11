@@ -16,7 +16,7 @@ export const PERSONAL_INFO = {
     "Expert in Design Thinking & User Research",
     "UX Architecture & Prototyping Specialist",
     "Responsive Web Design Consultant",
-    "Freelance Designer for Global Brands"
+    "Open to Frontend & Product Design roles"
   ],
   mission: "To design intuitive and accessible digital products that solve real-world problems through empathy, creativity, and user-centered design."
 };
@@ -146,7 +146,7 @@ export const SKILLS: Skill[] = [
   // Design Tools
   { name: "Figma", category: "tools", level: 98, description: "Expertise in auto-layouts, variant properties, nested components, and interactive prototypes.", color: "#ef4444" },
   { name: "FigJam & Miro", category: "tools", level: 95, description: "Collaborative whiteboards for brainstorming, journey mappings, and flow diagrams.", color: "#ef4444" },
-  { name: "Adobe XD", category: "tools", level: 92, description: "Generating UI prototypes, rapid layout testing, and client preview animations.", color: "#ef4444" },
+  { name: "Adobe XD", category: "tools", level: 92, description: "Generating UI prototypes, rapid layout testing, and quick preview animations.", color: "#ef4444" },
   { name: "Creative Suite", category: "tools", level: 90, description: "Vector illustrations in Adobe Illustrator, pixel editing in Adobe Photoshop.", color: "#ef4444" },
   { name: "Notion", category: "tools", level: 94, description: "Constructing design case studies, tracking specifications, and project managing timelines.", color: "#ef4444" }
 ];
@@ -154,51 +154,38 @@ export const SKILLS: Skill[] = [
 export const EXPERIENCES: Experience[] = [
   {
     id: "exp1",
-    role: "Lead UI/UX Designer & Product Designer",
-    company: "Freelance Creative Agency & Global Clients",
+    role: "Self-Initiated Frontend & UI Projects",
+    company: "Personal concept work (no clients)",
     duration: "2024 - Present",
     description: [
-      "Designed modern websites, responsive landing pages, analytical dashboards, and mobile applications in Figma.",
-      "Conducted extensive user research, including user interviews and empathy mapping, to drive human-centered design solutions.",
-      "Built comprehensive, pixel-perfect design systems with unified typographic hierarchies, auto-layouts, and rich variants.",
-      "Created highly interactive, gesture-driven high-fidelity prototypes in Figma to pitch and align project stakeholders."
+      "Designed and built four live concept sites end to end in React, Next.js and TypeScript.",
+      "Built scroll-driven interfaces with GSAP ScrollTrigger, Framer Motion and Three.js.",
+      "Created reusable component and type systems, plus responsive and accessible layouts.",
+      "Documented each project as a self-set brief instead of a client engagement."
     ],
     glowingLine: true
   },
   {
     id: "exp2",
-    role: "Product & Web Designer Consultant",
-    company: "Brand Identity Campaigns",
-    duration: "2023 - Present",
-    description: [
-      "Spearheaded user experience optimization projects, resulting in clean, accessible, and high-converting visual pathways.",
-      "Mapped user flows, journey maps, and information architecture to simplify product navigation layouts.",
-      "Designed custom brand collateral, high-end landing page frames, and curated cohesive visual asset guidelines.",
-      "Collaborated with cross-functional stakeholders to align aesthetic designs with core business KPIs and marketing funnels."
-    ],
-    glowingLine: false
-  },
-  {
-    id: "exp3",
-    role: "UI/UX & Interactive Design Researcher",
-    company: "Academic R&D / FAST NUCES Labs",
+    role: "UI Design Practice",
+    company: "Self-directed learning",
     duration: "2022 - Present",
     description: [
-      "Conducted research on Human-Computer Interaction (HCI) patterns and accessibility standards (WCAG).",
-      "Formulated interface blueprints, low-fidelity paper prototype sheets, and mapped structured user navigation routes.",
-      "Tested visual layouts and gathered user feedback through qualitative usability testing and eye-tracking simulations."
+      "Practised interface design in Figma: layouts, type scales, components and prototypes.",
+      "Studied accessibility (WCAG) and interaction patterns alongside BS AI coursework at FAST-NUCES.",
+      "Completed DataCamp courses in Python, SQL, Git and GitHub."
     ],
     glowingLine: false
   }
 ];
 
 export const CERTIFICATIONS: Certification[] = [
-  { title: "Google UX Design Professional Certificate", issuer: "Coursera / Google", date: "2023", color: "#ec4899" },
-  { title: "Figma UI/UX Advanced Design", issuer: "Coursera", date: "2023", color: "#8b5cf6" },
-  { title: "Design Thinking & User Innovation", issuer: "Interaction Design Foundation", date: "2023", color: "#06b6d4" },
-  { title: "User Experience Foundations", issuer: "Interaction Design Foundation", date: "2024", color: "#10b981" },
-  { title: "Interaction Design Specialization", issuer: "Interaction Design Foundation", date: "2024", color: "#f59e0b" },
-  { title: "Responsive Web Design (Design Perspective)", issuer: "freeCodeCamp", date: "2023", color: "#ef4444" }
+  { title: "Foundations of Git", issuer: "DataCamp", date: "2024", color: "#03ef62" },
+  { title: "Intermediate GitHub Concepts", issuer: "DataCamp", date: "2024", color: "#8b5cf6" },
+  { title: "Introduction to Python", issuer: "DataCamp", date: "2024", color: "#06b6d4" },
+  { title: "Intermediate Python", issuer: "DataCamp", date: "2024", color: "#6366f1" },
+  { title: "Introduction to SQL", issuer: "DataCamp", date: "2024", color: "#f59e0b" },
+  { title: "Joining Data in SQL", issuer: "DataCamp", date: "2024", color: "#ef4444" }
 ];
 
 export const SERVICES = [
@@ -235,11 +222,11 @@ export const SERVICES = [
 ];
 
 export const STATS = [
-  { value: "15+", label: "Design Projects Completed" },
-  { value: "6+", label: "Professional Design Credentials" },
-  { value: "4+", label: "Design Domains of Expertise" },
+  { value: "4", label: "Live Projects Built" },
+  { value: "10", label: "DataCamp Course Certificates" },
+  { value: "4+", label: "Design & Code Domains" },
   { value: "2022", label: "Started Design Journey" },
-  { value: "100%", label: "User-Centered & Empathetic" }
+  { value: "100%", label: "Self-Initiated Work" }
 ];
 
 export const ADVANTAGES = [
@@ -289,35 +276,9 @@ export const DESIGN_PRINCIPLES: DesignPrinciple[] = [
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
-  {
-    name: "Sarah Lin",
-    role: "VP of Product",
-    company: "ShopSwell Retail",
-    content: "Urwah transformed our entire checkout conversion funnel. Her meticulous attention to micro-interactions and mobile usability decreased user friction by 42%. Exceptional designer!",
-    avatarBg: "#ec4899"
-  },
-  {
-    name: "Marcus Vance",
-    role: "Lead Analytics Architect",
-    company: "DataCommand Cloud",
-    content: "The Bento-Grid layout Urwah designed for our SaaS dashboard reduced analyst onboarding time immensely. She balances high data density with remarkable visual elegance.",
-    avatarBg: "#06b6d4"
-  },
-  {
-    name: "Dr. Elena Rostova",
-    role: "HealthTech Director",
-    company: "CarePulse Eldercare",
-    content: "Designing for senior citizens requires deep empathy and strict accessibility. Urwah delivered a heartwarming, intuitive telemedicine flow that our patients adore.",
-    avatarBg: "#10b981"
-  }
 ];
 
 export const CLIENT_COLLABORATIONS: ClientCollaboration[] = [
-  { name: "Ciron", industry: "Web Product", deliverable: "Landing & Component System", year: "2024" },
-  { name: "Nexus AI", industry: "AI Product", deliverable: "Generative Design Assistant", year: "2024" },
-  { name: "Astronomia", industry: "Web Product", deliverable: "Immersive Web Experience", year: "2024" },
-  { name: "Studio Graphite", industry: "Creative Agency", deliverable: "Brand Identity & Landing Page", year: "2023" },
-  { name: "FAST NUCES HCI Lab", industry: "Academic Research", deliverable: "Usability Eye-Tracking Audit", year: "2022" }
 ];
 
 export const INSPIRATION_WALL: InspirationItem[] = [
