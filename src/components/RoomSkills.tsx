@@ -22,15 +22,18 @@ interface ToolItem {
 }
 
 const TOOLBOX: ToolItem[] = [
-  { name: 'Figma', category: 'UI/UX & Prototyping', icon: '🎨', description: 'Auto-layout, variables, design tokens, and interactive components.', badge: 'Primary Tool', color: '#ec4899' },
-  { name: 'Photoshop', category: 'Raster & Edit', icon: '🖼️', description: 'Pixel editing, textures, photo manipulation, and visual assets.', badge: 'Visual Art', color: '#3b82f6' },
-  { name: 'Illustrator', category: 'Vector Art', icon: '✒️', description: 'Bespoke vector graphics, logo systems, and icon sets.', badge: 'Vector System', color: '#f59e0b' },
-  { name: 'VS Code', category: 'Frontend Code', icon: '💻', description: 'Writing clean HTML, CSS, and modern web application structures.', badge: 'Code Workspace', color: '#06b6d4' },
-  { name: 'Framer', category: 'Web Motion', icon: '⚡', description: 'Interactive site transitions and responsive motion layouts.', badge: 'Interactive', color: '#8b5cf6' },
-  { name: 'React', category: 'Component UI', icon: '⚛️', description: 'Building modular stateful UI components and design tokens.', badge: 'Frontend Framework', color: '#0284c7' },
-  { name: 'HTML', category: 'Markup Structure', icon: '📄', description: 'Semantic HTML5 structure for high WCAG accessibility standards.', badge: 'Core Web', color: '#ea580c' },
-  { name: 'CSS', category: 'Styling & Grids', icon: '🎨', description: 'Tailwind CSS, flexbox, CSS grid, and responsive breakpoints.', badge: 'Layout Engine', color: '#2563eb' },
-  { name: 'JavaScript', category: 'Logic & State', icon: '📜', description: 'Interactive state logic, DOM manipulation, and dynamic events.', badge: 'Scripting', color: '#eab308' },
+  { name: 'Figma', category: 'UI Design & Prototyping', icon: '🎨', description: 'Auto-layout, variables, design tokens, and interactive components.', badge: 'Primary Tool', color: '#ec4899' },
+  { name: 'React', category: 'Component UI', icon: '⚛️', description: 'Building modular, stateful UI components and typed props.', badge: 'Frontend Framework', color: '#06b6d4' },
+  { name: 'Next.js', category: 'App Router', icon: '▲', description: 'Routing, layouts and image handling for production builds.', badge: 'Framework', color: '#111827' },
+  { name: 'TypeScript', category: 'Typed Logic', icon: '🔷', description: 'Typed components, props and state so refactors stay safe.', badge: 'Language', color: '#3178c6' },
+  { name: 'Tailwind CSS', category: 'Styling & Grids', icon: '🎯', description: 'Utility styling, flexbox, CSS grid and responsive breakpoints.', badge: 'Layout Engine', color: '#0ea5e9' },
+  { name: 'GSAP', category: 'ScrollTrigger Motion', icon: '⚡', description: 'Pinned sections and scroll-driven timelines.', badge: 'Motion', color: '#22c55e' },
+  { name: 'Framer Motion', category: 'React Animation', icon: '✨', description: 'Component transitions, gestures and layout animation.', badge: 'Motion', color: '#8b5cf6' },
+  { name: 'Three.js', category: 'WebGL Scenes', icon: '🌐', description: 'Particle fields, lighting and post-processing in the browser.', badge: 'WebGL', color: '#f59e0b' },
+  { name: 'Vite', category: 'Build Tooling', icon: '⚙️', description: 'Fast dev server and bundling for React and TypeScript apps.', badge: 'Tooling', color: '#a855f7' },
+  { name: 'VS Code', category: 'Frontend Code', icon: '💻', description: 'Where the HTML, CSS and application structure gets written.', badge: 'Code Workspace', color: '#2563eb' },
+  { name: 'Illustrator', category: 'Vector Art', icon: '✒️', description: 'Vector graphics, logo studies and icon sets.', badge: 'Vector System', color: '#f97316' },
+  { name: 'Photoshop', category: 'Raster & Edit', icon: '🖼️', description: 'Image editing, textures and visual assets.', badge: 'Visual Art', color: '#0891b2' }
 ];
 
 interface ProcessStep {
@@ -45,50 +48,50 @@ interface ProcessStep {
 const DESIGN_PROCESS: ProcessStep[] = [
   {
     id: 'discover',
-    title: '1. Discover',
-    subtitle: 'Problem Definition & Context',
-    desc: 'Uncovering business goals, defining target personas, and conducting qualitative stakeholder interviews.',
-    deliverables: ['Stakeholder Briefs', 'Problem Statement', 'Competitive Audit'],
+    title: '1. Brief',
+    subtitle: 'Framing My Own Problem',
+    desc: 'Every project starts as a brief I write myself: what the site has to say, and what the constraint is.',
+    deliverables: ['Self-Set Brief', 'Reference Board', 'Constraints'],
     color: '#6366f1'
   },
   {
     id: 'research',
-    title: '2. Research',
-    subtitle: 'Empathy & User Insights',
-    desc: 'Conducting semi-structured user interviews, card sorting, empathy mapping, and user journey flows.',
-    deliverables: ['User Personas', 'Empathy Maps', 'Information Architecture'],
+    title: '2. Direction',
+    subtitle: 'Visual & Motion Language',
+    desc: 'Collecting references, then settling the type scale, palette and the kind of motion the page will use.',
+    deliverables: ['Moodboard', 'Type Scale', 'Palette'],
     color: '#ec4899'
   },
   {
     id: 'userflows',
-    title: '3. User Flows',
-    subtitle: 'Structural Blueprints',
-    desc: 'Sketching paper concepts and creating structural Figma layouts focusing on content hierarchy.',
-    deliverables: ['Paper Sketches', 'Low-Fi Figma Grids', 'Clickable Flow Maps'],
+    title: '3. Structure',
+    subtitle: 'Sections & Scroll Order',
+    desc: 'Sketching the sections on paper, then blocking them out in Figma to decide the scroll order.',
+    deliverables: ['Paper Sketches', 'Low-Fi Figma Grids', 'Scroll Storyboard'],
     color: '#06b6d4'
   },
   {
     id: 'prototype',
-    title: '4. Prototype',
-    subtitle: 'High-Fi UI & Interactions',
-    desc: 'Crafting pixel-perfect design systems, auto-layout variants, gesture micro-interactions, and motion flows.',
-    deliverables: ['High-Fi Components', 'Interactive Prototypes', 'Design Tokens'],
+    title: '4. Design',
+    subtitle: 'Components & States',
+    desc: 'Building the components, spacing system and states in Figma before any code is written.',
+    deliverables: ['High-Fi Components', 'Design Tokens', 'Interactive Prototype'],
     color: '#8b5cf6'
   },
   {
     id: 'test',
-    title: '5. Test',
-    subtitle: 'Usability & Accessibility',
-    desc: 'Executing cognitive walkthroughs, tree testing, WCAG contrast verification, and gathering feedback.',
-    deliverables: ['Usability Test Logs', 'SUS Score Report', 'Iteration Notes'],
+    title: '5. Build',
+    subtitle: 'React, TypeScript & Motion',
+    desc: 'Implementing the design myself: typed components, then GSAP or Framer Motion timelines tied to scroll.',
+    deliverables: ['Typed Components', 'Scroll Timelines', 'Responsive Layout'],
     color: '#f59e0b'
   },
   {
     id: 'launch',
-    title: '6. Launch',
-    subtitle: 'Developer Handoff & Specs',
-    desc: 'Preparing structured developer handoffs, redline specifications, asset exports, and live previews.',
-    deliverables: ['Figma Specs', 'SVG Asset Export', 'Live Web Launch'],
+    title: '6. Ship',
+    subtitle: 'Deploy & Refine',
+    desc: 'Deploying to Vercel, then checking performance, contrast and behaviour on smaller screens.',
+    deliverables: ['Vercel Deploy', 'Contrast Checks', 'Iteration Notes'],
     color: '#10b981'
   }
 ];
@@ -136,12 +139,12 @@ export default function RoomSkills({ onBack }: RoomSkillsProps) {
               <div>
                 <h3 className="font-serif text-2xl font-bold text-neutral-800">Studio Toolbox</h3>
                 <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest">
-                  Software, languages, and core design utilities
+                  Software, languages, and libraries I actually use
                 </p>
               </div>
             </div>
             <span className="font-mono text-xs bg-indigo-50 text-indigo-700 border border-indigo-200 px-3 py-1 rounded-full font-bold">
-              9 Primary Tools
+              12 Primary Tools
             </span>
           </div>
 
@@ -188,9 +191,9 @@ export default function RoomSkills({ onBack }: RoomSkillsProps) {
             <div className="flex items-center gap-2.5">
               <Layers className="w-5 h-5 text-rose-500" />
               <div>
-                <h3 className="font-serif text-2xl font-bold text-neutral-800">Design Process Pipeline</h3>
+                <h3 className="font-serif text-2xl font-bold text-neutral-800">Design & Build Process</h3>
                 <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest">
-                  End-to-end methodology applied to every product
+                  How each of my concept projects goes from brief to deployed site
                 </p>
               </div>
             </div>
@@ -270,7 +273,7 @@ export default function RoomSkills({ onBack }: RoomSkillsProps) {
       </div>
 
       <div className="w-full text-center text-neutral-400 font-mono text-[10px] mt-8 select-none">
-        Urwah's Design Studio • Combining research, Figma systems, and code
+        Urwah's Studio • Figma for design, React and TypeScript for the build
       </div>
     </div>
   );
