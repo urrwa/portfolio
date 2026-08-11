@@ -252,16 +252,16 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
 
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg relative">
                     <div className="w-2.5 h-2.5 bg-emerald-600 rounded-full absolute -left-[21px] top-4 border-2 border-white" />
-                    <span className="font-mono text-[10px] font-bold text-emerald-600">2023 — Global Credentials & Client Work</span>
-                    <h5 className="font-serif text-sm font-bold text-neutral-800 mt-0.5">Google UX Credential & Freelancing</h5>
-                    <p className="font-serif text-xs text-neutral-600 mt-1">Earned Google UX Design Credential on Coursera; designed mobile apps and brand identities for global startups.</p>
+                    <span className="font-mono text-[10px] font-bold text-emerald-600">2023 — Self-Directed Practice</span>
+                    <h5 className="font-serif text-sm font-bold text-neutral-800 mt-0.5">Learning by Building</h5>
+                    <p className="font-serif text-xs text-neutral-600 mt-1">Kept practising interface design and front-end fundamentals through self-initiated projects, not client work.</p>
                   </div>
 
                   <div className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg relative">
                     <div className="w-2.5 h-2.5 bg-rose-600 rounded-full absolute -left-[21px] top-4 border-2 border-white" />
-                    <span className="font-mono text-[10px] font-bold text-rose-600">2024–Present — Enterprise Systems & Research</span>
+                    <span className="font-mono text-[10px] font-bold text-rose-600">2024–Present — Building in Code</span>
                     <h5 className="font-serif text-sm font-bold text-neutral-800 mt-0.5">Product Design & Interactive Experiences</h5>
-                    <p className="font-serif text-xs text-neutral-600 mt-1">Architecting SaaS command centers, telemedicine flows, and tokenized Figma design systems.</p>
+                    <p className="font-serif text-xs text-neutral-600 mt-1">Designing and building animated, scroll-driven interfaces in React, Next.js and TypeScript as personal concept projects.</p>
                   </div>
                 </div>
               </div>
@@ -279,20 +279,20 @@ export default function RoomAbout({ onBack }: RoomAboutProps) {
                     <h4 className="font-serif text-base font-bold text-neutral-800">FAST National University (NUCES)</h4>
                     <span className="font-mono text-[10px] bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-bold">University</span>
                   </div>
-                  <p className="font-serif text-xs text-neutral-600 mt-1">Bachelor of Science in Computer Science & Human-Computer Interaction (HCI)</p>
-                  <p className="font-mono text-[10px] text-neutral-400 mt-1">Faisalabad Campus • Focus on UX Architecture, Ergonomics & Cognitive Load</p>
+                  <p className="font-serif text-xs text-neutral-600 mt-1">Bachelor of Science in Artificial Intelligence (BS AI) — in progress, expected 2026</p>
+                  <p className="font-mono text-[10px] text-neutral-400 mt-1">Faisalabad Campus • Aug 2022 – Jun 2026</p>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div className="p-3 border border-neutral-200 rounded-lg bg-neutral-50">
-                    <span className="font-mono text-[9px] text-neutral-400 uppercase block">Certified Specialization</span>
-                    <h5 className="font-serif text-xs font-bold text-neutral-800 mt-0.5">Google UX Design Professional</h5>
-                    <p className="font-mono text-[9px] text-emerald-600 mt-1">Coursera Verified Credential</p>
+                    <span className="font-mono text-[9px] text-neutral-400 uppercase block">Verified Certificates</span>
+                    <h5 className="font-serif text-xs font-bold text-neutral-800 mt-0.5">DataCamp — Python & SQL</h5>
+                    <p className="font-mono text-[9px] text-emerald-600 mt-1">Intro & Intermediate Python, Intro to SQL, Joining Data in SQL</p>
                   </div>
                   <div className="p-3 border border-neutral-200 rounded-lg bg-neutral-50">
-                    <span className="font-mono text-[9px] text-neutral-400 uppercase block">IDF Credentials</span>
-                    <h5 className="font-serif text-xs font-bold text-neutral-800 mt-0.5">Interaction Design Foundation</h5>
-                    <p className="font-mono text-[9px] text-emerald-600 mt-1">Design Thinking & UX Foundations</p>
+                    <span className="font-mono text-[9px] text-neutral-400 uppercase block">Verified Certificates</span>
+                    <h5 className="font-serif text-xs font-bold text-neutral-800 mt-0.5">DataCamp — Git & GitHub</h5>
+                    <p className="font-mono text-[9px] text-emerald-600 mt-1">Foundations of Git, Intermediate GitHub Concepts</p>
                   </div>
                 </div>
 
