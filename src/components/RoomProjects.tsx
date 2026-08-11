@@ -369,59 +369,6 @@ export default function RoomProjects({ onBack }: RoomProjectsProps) {
               </div>
             )}
 
-            {/* EXTRA BEHANCE SECTION 1: SELECTED CLIENTS */}
-            <div className="mt-12 bg-white border-2 border-neutral-800 rounded-xl p-6 shadow-[6px_6px_0px_rgba(28,28,28,0.12)] sketch-element select-none">
-              <div className="flex items-center justify-between border-b border-dashed border-neutral-200 pb-3 mb-4">
-                <h4 className="font-serif text-lg font-bold text-neutral-800">Featured Collaborations & Selected Clients</h4>
-                <span className="font-mono text-[9px] bg-indigo-50 text-indigo-700 px-2 py-0.5 border border-indigo-200 rounded font-bold uppercase">
-                  Featured Partners
-                </span>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 text-center">
-                {[
-                  { name: "ShopSwell Retail", type: "E-Commerce", yr: "2024" },
-                  { name: "DataCommand Cloud", type: "SaaS Analytics", yr: "2024" },
-                  { name: "CarePulse Telemedicine", type: "HealthTech", yr: "2023" },
-                  { name: "Studio Graphite", type: "Branding Agency", yr: "2023" },
-                  { name: "FAST NUCES HCI Lab", type: "R&D Research", yr: "2022" },
-                ].map((c, i) => (
-                  <div key={i} className="p-3 bg-neutral-50 border border-neutral-200 rounded-lg">
-                    <p className="font-serif text-xs font-bold text-neutral-800">{c.name}</p>
-                    <span className="font-mono text-[8px] text-neutral-400 uppercase block mt-0.5">{c.type} • {c.yr}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* EXTRA BEHANCE SECTION 2: TESTIMONIALS */}
-            <div className="mt-8 bg-white border-2 border-neutral-800 rounded-xl p-6 shadow-[6px_6px_0px_rgba(28,28,28,0.12)] sketch-element select-none">
-              <div className="flex items-center justify-between border-b border-dashed border-neutral-200 pb-3 mb-4">
-                <h4 className="font-serif text-lg font-bold text-neutral-800">Client Endorsements & Stakeholder Quotes</h4>
-                <span className="font-mono text-[9px] bg-amber-50 text-amber-700 px-2 py-0.5 border border-amber-200 rounded font-bold uppercase">
-                  Testimonials
-                </span>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {[
-                  { name: "Sarah Lin", role: "VP of Product • ShopSwell", quote: "Urwah transformed our entire mobile checkout funnel. Her micro-interactions decreased drop-off by 42%.", bg: "#ec4899" },
-                  { name: "Marcus Vance", role: "Lead Analytics Architect • DataCommand", quote: "The Bento-Grid layout Urwah designed reduced analyst onboarding time immensely while keeping data clear.", bg: "#06b6d4" },
-                  { name: "Dr. Elena Rostova", role: "HealthTech Director • CarePulse", quote: "Designing for senior citizens requires deep empathy. Urwah delivered a heartwarming, accessible app.", bg: "#10b981" },
-                ].map((t, i) => (
-                  <div key={i} className="p-4 bg-neutral-50 border border-neutral-200 rounded-xl flex flex-col justify-between">
-                    <p className="font-serif text-xs text-neutral-700 italic leading-relaxed">"{t.quote}"</p>
-                    <div className="mt-4 pt-2 border-t border-neutral-200 flex items-center gap-2">
-                      <div style={{ backgroundColor: t.bg }} className="w-6 h-6 rounded-full text-white font-mono text-[10px] font-bold flex items-center justify-center">
-                        {t.name[0]}
-                      </div>
-                      <div>
-                        <p className="font-serif text-xs font-bold text-neutral-800">{t.name}</p>
-                        <p className="font-mono text-[8px] text-neutral-400 uppercase">{t.role}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
 
             {/* EXTRA BEHANCE SECTION 3: BEHIND THE SCENES */}
             <div className="mt-8 bg-white border-2 border-neutral-800 rounded-xl p-6 shadow-[6px_6px_0px_rgba(28,28,28,0.12)] sketch-element select-none">
