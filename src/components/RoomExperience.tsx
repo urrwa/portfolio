@@ -31,23 +31,23 @@ const TIMELINE_STEPS: TimelineStep[] = [
   },
   {
     year: '2023',
-    title: 'Freelance Projects',
-    desc: 'Delivered client design solutions, brand guidelines, and responsive landing pages.',
-    highlights: ['Designed e-commerce mobile apps', 'Created vector brand design systems', 'Conducted usability interviews'],
+    title: 'Self-Initiated Projects',
+    desc: 'Practised on my own briefs: UI layouts, visual systems, and responsive landing pages — no client work.',
+    highlights: ['Designed mobile app UI concepts', 'Explored vector and type systems', 'Tested layouts with friends and peers'],
     color: '#06b6d4'
   },
   {
     year: '2024',
     title: 'Learning Product Design',
     desc: 'Deepened expertise in HCI, component auto-layouts, and design system governance.',
-    highlights: ['FAST National University HCI labs', 'Earned Google UX Design Credential', 'Built complex prototype interactions'],
+    highlights: ['FAST National University HCI labs', 'Completed DataCamp Python, SQL and Git courses', 'Built complex prototype interactions'],
     color: '#10b981'
   },
   {
     year: '2025',
     title: 'Website Design Projects',
-    desc: 'Architected high-converting responsive web apps, SaaS analytics dashboards, and telemedicine flows.',
-    highlights: ['SaaS Analytics Command dashboard', 'CarePulse eldercare telemedicine flow', 'Studio Graphite branding'],
+    desc: 'Started building my designs in code — animated, scroll-driven React and Next.js sites as concept projects.',
+    highlights: ['Nexus AI cinematic Three.js experience', 'Astronomia Luxe scroll sequence concept', 'CIRON bicycle brand concept site'],
     color: '#f59e0b'
   },
   {
