@@ -1,6 +1,6 @@
 /**
- * @license
- * SPDX-License-Identifier: Apache-2.0
+ * © 2026 Urwah Imtiaz. All rights reserved.
+ * Not licensed for reuse or redistribution.
  */
 
 export interface Project {
