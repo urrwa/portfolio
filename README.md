@@ -24,3 +24,12 @@ View your app in AI Studio: https://ai.studio/apps/37c29421-7b38-4d4d-9da4-e7445
 
 > The local server now prefers `.env.local` when present, so your SMTP credentials will be loaded correctly.
 > If you deploy to Vercel, the project now includes an `/api/contact/send` serverless function. Make sure `/api` is not rewritten to `index.html` so the email route stays reachable.
+
+
+---
+
+## License
+
+© 2026 Urwah Imtiaz. All rights reserved.
+
+This code, along with all artwork, hand-drawn SVGs, illustrations and audio in this repository, is not licensed for reuse, redistribution or commercial use. You are welcome to view the source and learn from it. For permission to use any part of this work, please get in touch.
